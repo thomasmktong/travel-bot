@@ -1,0 +1,303 @@
+{
+  "userSays": [
+    {
+      "id": "2563b2bc-7f4a-4cdb-8e95-105ff1c41984",
+      "data": [
+        {
+          "text": "ticket to "
+        },
+        {
+          "text": "Tai Chung",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e40cc0d1-8034-48cb-a718-d10bfe262f87",
+      "data": [
+        {
+          "text": "flight to "
+        },
+        {
+          "text": "Pearson",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": ", back on "
+        },
+        {
+          "text": "6/18",
+          "alias": "return-date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b36bfe87-c10a-46c0-b8fd-9534b33ce49e",
+      "data": [
+        {
+          "text": "travel from "
+        },
+        {
+          "text": "New York",
+          "alias": "from-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Sydney",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": ", back on "
+        },
+        {
+          "text": "18/6",
+          "alias": "return-date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f31450f-d334-4dbe-a592-04b39f71cbc3",
+      "data": [
+        {
+          "text": "airplane to "
+        },
+        {
+          "text": "Vancouver",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "13th July",
+          "alias": "depart-date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": ", return on "
+        },
+        {
+          "text": "27th July",
+          "alias": "return-date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "084f23ca-2c82-4639-ad96-7bc12930ce36",
+      "data": [
+        {
+          "text": "aeroplane to "
+        },
+        {
+          "text": "Vancouver",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "13th July",
+          "alias": "depart-date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "000bec73-08a5-4421-aa3a-0f4302638531",
+      "data": [
+        {
+          "text": "fly from "
+        },
+        {
+          "text": "Singapore",
+          "alias": "from-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Heathrow",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa170635-d1bb-4ecb-a665-c4ce1478656a",
+      "data": [
+        {
+          "text": "plane from "
+        },
+        {
+          "text": "US",
+          "alias": "from-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bd3b90a-4bd6-4f7a-b477-156346139d9a",
+      "data": [
+        {
+          "text": "flight from "
+        },
+        {
+          "text": "Hanoi",
+          "alias": "from-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Russia",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27ec83de-be38-460e-85a6-5585a60e9ff7",
+      "data": [
+        {
+          "text": "plane from "
+        },
+        {
+          "text": "Hong Kong",
+          "alias": "from-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "New York",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "760cd621-9f21-4dd8-b1f0-fcb208397a43",
+      "data": [
+        {
+          "text": "flights to "
+        },
+        {
+          "text": "Hong Kong",
+          "alias": "to-geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "41c98bea-41e0-48cb-94c0-54937f17b76a",
+  "name": "find_flights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "to-geo-city",
+          "value": "$to-geo-city",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "from-geo-city",
+          "value": "$from-geo-city",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "depart-date",
+          "value": "$depart-date",
+          "prompts": [
+            "When is your departure date?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "return-date",
+          "value": "$return-date",
+          "prompts": [
+            "When is your return date?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,110 @@
+{
+  "userSays": [
+    {
+      "id": "1cefe263-2a38-49ec-879d-bd1354e90ae9",
+      "data": [
+        {
+          "text": "tourist spot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "159a0866-1c33-43b0-b233-0ff756b0815f",
+      "data": [
+        {
+          "text": "suggest an attraction in "
+        },
+        {
+          "text": "Cuba",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "32400188-ba6f-41b1-a57d-890eb74ebcf0",
+      "data": [
+        {
+          "text": "interesting place"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87e80f3f-9614-4ffe-8a56-d344dcfb8200",
+      "data": [
+        {
+          "text": "attractions in "
+        },
+        {
+          "text": "Mexico",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc8c6a38-acec-4531-8905-a9cb623f493d",
+      "data": [
+        {
+          "text": "any good place in "
+        },
+        {
+          "text": "Palo Alto",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "099e215f-5d1b-4b37-a9a2-8365ad4c957d",
+  "name": "find_attractions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.place",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            "Which country or city you want to go to?",
+            "Which country or city you want to travel?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
