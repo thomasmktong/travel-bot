@@ -137,6 +137,5 @@ $ recime-cli config set YELP_SECRET=XXX
 - [Yelp API Documention](https://www.yelp.com/developers/documentation/)
 
 <hr />
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-[Privacy Policy](https://github.com/thomasmktong/travel-bot/blob/master/PRIVACY_POLICY.md) - [Terms of Service](https://github.com/thomasmktong/travel-bot/blob/master/TERMS_OF_SERVICES.md)
+This work is released under the [MIT License](https://github.com/thomasmktong/travel-bot/blob/master/LICENSE.txt) - [Privacy Policy](https://github.com/thomasmktong/travel-bot/blob/master/PRIVACY_POLICY.md) - [Terms of Service](https://github.com/thomasmktong/travel-bot/blob/master/TERMS_OF_SERVICES.md)
