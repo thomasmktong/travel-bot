@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/.recime
 
 # testing
 /coverage
@@ -11,6 +10,8 @@
 /build
 
 # misc
+/.recime
+main.js
 .DS_Store
 .env
 npm-debug.log*

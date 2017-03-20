@@ -69,7 +69,7 @@ This project serves as one of the complete examples for setting up a full-featur
 
 ### Recime.io
 
-1. Initiale the Recime CLI with `recime-cli login`, type in your login email and password
+1. Initialize the Recime CLI with `recime-cli login`, type in your login email and password
 2. Clone this repository
 3. Add the copied keys into `./recime/config.json` by the following commands:
 
@@ -113,16 +113,16 @@ $ recime-cli config set YELP_SECRET=XXX
 ### Facebook Webhook
 
 1. Navigate to [Facebook for developers](https://developers.facebook.com/) page
-2. Select the Facebook App, under the **Products** > **Messenger** page > **Webhooks** section, click the **Setup Webhooks button
+2. Select the Facebook App, under the **Products** > **Messenger** page > **Webhooks** section, click the **Setup Webhooks** button
 3. Paste the Recime project's deployed **API endpoint** and **Verify Token** to the fields
-4. Select **message_deliveries, messages, messaging_optins, messaging_postbacks** under **Subscription Fields**
+4. Select **message_deliveries**, **messages**, **messaging_optins**, **messaging_postbacks** under **Subscription Fields**
 5. Once you set the webhook, the settings will be moved to **Products** > **Webhooks** page
 6. You should be able to test your chat bot now, go to **Roles** page to add testers, or go to **App Review** page to publish the App
 
 ## Platform Limitations
 
-- [Message Templates](https://developers.facebook.com/docs/messenger-platform/send-api-reference/templates) provided by Facebook is extremely not flexible by mandating values in almost all the fields. It is also not consistent. For example, developer can add buttons at the end of the [List Template](https://developers.facebook.com/docs/messenger-platform/send-api-reference/list-template), but not in the [Airline Itinerary Template](https://developers.facebook.com/docs/messenger-platform/send-api-reference/airline-itinerary-template). Conversely, an intro message cannot be added to the prior template but can be added to the latter.
-- [Recime.io](https://recime.io/) is easy to use. But at this moment, it only supports one respond message or template for each user input. Combining with the limitations of Facebook Messenger, results in a suboptimal user experience.
+- [Message Templates](https://developers.facebook.com/docs/messenger-platform/send-api-reference/templates) provided by Facebook is extremely not flexible by mandating values in almost all the fields. The templates are also not consistent. For example, developer can add buttons at the end of the [List Template](https://developers.facebook.com/docs/messenger-platform/send-api-reference/list-template), but not in the [Airline Itinerary Template](https://developers.facebook.com/docs/messenger-platform/send-api-reference/airline-itinerary-template). Conversely, an intro message cannot be added to the prior template but can be added to the latter.
+- [Recime.io](https://recime.io/) is easy to use. But at this moment, it only supports one respond message or template for each user message. Combining with the limitations of Facebook Messenger, results in a suboptimal user experience. It also limits the processing time of the code to be less than 10 seconds.
 
 ## Related Projects
 
@@ -136,7 +136,6 @@ $ recime-cli config set YELP_SECRET=XXX
 - [Skyscanner API Documentation](https://skyscanner.github.io/slate/)
 - [Yelp API Documention](https://www.yelp.com/developers/documentation/)
 
-<br />
 <hr />
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
