@@ -256,7 +256,9 @@
           "dataType": "@sys.geo-city",
           "name": "to-geo-city",
           "value": "$to-geo-city",
-          "prompts": [],
+          "prompts": [
+            "Which city to go?"
+          ],
           "isList": false
         },
         {
@@ -264,6 +266,9 @@
           "dataType": "@sys.geo-city",
           "name": "from-geo-city",
           "value": "$from-geo-city",
+          "prompts": [
+            "Which city to go to?"
+          ],
           "isList": false
         },
         {

@@ -17,6 +17,8 @@ This project serves as one of the complete examples for setting up a full-featur
 - [@thetravelbot](https://www.facebook.com/thetravelbot/) - Travel Bot Page in Facebook
 - You can start with keywords or phases like "attractions in London", or "flight ticket to San Francisco"
 
+<img src="http://i.imgur.com/ow1Y0Mj.png" width="600"></img><br />
+
 ## Setup Guide
 
 ### Architecture
